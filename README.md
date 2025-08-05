@@ -283,7 +283,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - LinkedIn: https://www.linkedin.com/in/nicolas-sandoval-806703344/?locale=en_US
 - Email: ncst321@gmail.com
 
-## 🙏 Agradecimientos
+## DOCUMENTACION
 
 - [NestJS](https://nestjs.com/) - Framework de backend
 - [TypeORM](https://typeorm.io/) - ORM para TypeScript
