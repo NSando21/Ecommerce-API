@@ -1,6 +1,7 @@
 import { PickType } from '@nestjs/swagger';
 
 import {
+  IsDateString,
   IsEmail,
   IsEmpty,
   IsNotEmpty,
@@ -84,6 +85,10 @@ export class CreateUserDto {
   @MaxLength(20)
   city: string;
 
+  @IsNotEmpty()
+  @IsDateString()
+  birthdate: Date;
+
   /**
    * @description Indica si el usuario es administrador, por defecto es false.
    * @example false
@@ -99,6 +104,7 @@ export class UpdateUserDto extends PickType(CreateUserDto, [
   'phone',
   'country',
   'city',
+  'birthdate',
 ]) {
   /**
    * @description La contraseña del usuario, debe tener al menos 8 caracteres, una letra mayúscula, una minúscula, un número y un carácter especial.

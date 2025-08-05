@@ -27,6 +27,9 @@ export class User {
   @Column({ type: 'varchar', length: 50 })
   city: string;
 
+  @Column({ type: 'date', nullable: true })
+  birthdate: Date;
+
   @Column({
     type: 'boolean',
     default: false,
