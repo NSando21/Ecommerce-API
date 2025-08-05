@@ -60,7 +60,7 @@ API RESTful desarrollada con NestJS para un sistema de ecommerce completo. Esta 
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/ecommerce-nsando21.git
+git clone https://github.com/NSando21/ecommerce-nsando21.git
 cd ecommerce-nsando21
 ```
 
